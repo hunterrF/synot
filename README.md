@@ -4,7 +4,7 @@ Tento projekt obsahuje:
 - UI test (Selenium + POM) — Google search pre výraz **"synot games"**
 - API testy (requests + pytest):
   - Dog CEO API (https://dog.ceo/api/breeds/image/random)
-  - Free Public APIs (https://api.chucknorris.io/jokes/random)
+  - Chuck Norris Jokes APIs (https://api.chucknorris.io/jokes/random)
 
 ## Požiadavky
 - Python 3.8+
