@@ -1,14 +1,14 @@
-# Automation Project (UI + API)
+# Synot Automation Project (UI + API)
 
 Tento projekt obsahuje:
 - UI test (Selenium + POM) — Google search pre výraz **"synot games"**
 - API testy (requests + pytest):
   - Dog CEO API (https://dog.ceo/api/breeds/image/random)
-  - Free Public APIs (https://api.publicapis.org/entries)
+  - Free Public APIs (https://api.chucknorris.io/jokes/random)
 
 ## Požiadavky
 - Python 3.8+
-- Chrome prehliadač (ak spúšťate ne-headless)
+- Chrome prehliadač (ak spúšťate ne-headless) (neodporucam, Google pyta ReCapcha)
 - Odporúčané: vytvoriť virtuálne prostredie (venv)
 
 ## Inštalácia
@@ -26,6 +26,11 @@ pip install -r requirements.txt
 - Spustiť všetky testy:
 ```bash
 pytest
+```
+
+- Spustiť všetky testy s vystupom do konzole:
+```bash
+pytest -s
 ```
 
 - Spustiť len UI testy:
